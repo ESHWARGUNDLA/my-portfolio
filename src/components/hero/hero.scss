@@ -63,10 +63,7 @@
                             text-transform: uppercase;
                             color: transparent;
                             -webkit-text-stroke: 1px var(--text-stroke-color);
-                            @include mobile {
-                                
-                                    
-                                }
+
                         }
             
                         /* this is the text, when you hover on button */
@@ -85,6 +82,9 @@
                         /* hover */
                         .button:hover .hover-text {
                             width: 48%;
+                            @include mobile {
+                                width: 98%;
+                            }
                             filter: drop-shadow(0 0 23px var(--animation-color))
 
                             

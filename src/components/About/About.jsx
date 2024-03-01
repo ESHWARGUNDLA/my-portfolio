@@ -10,16 +10,16 @@ const About = () => {
     <div className="box">U</div>
     <div className="box">T</div>
 </div>
+            {/* <br /><hr />
             <br /><hr />
-            <br /><hr />
-            <br /><hr />
+            <br /><hr /> */}
             <br /> 
             <p>Hi all I'm <span>GUNDLA ESHWAR</span> and I'm from Rajanna Sircilla,Telangana. I am currently pursuing my B.Tech in Sreenidhi Institute of Science and Technology in the stream of Electronics and Communication Engineering,Hyderabad. I'm intrested in <span>Full Stack Web Development and Python Development.</span>
             <br />
             <br/>
             <span>
                 <img src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-3454633-2918522.png" alt="img" />
-                <img src="https://www.aalpha.net/wp-content/uploads/2020/12/full-stack-development.gif" alt="img" />
+                <img src="https://www.aalpha.net/wp-content/uploads/2020/12/full-stack-development.gif" alt="img1" />
             </span>
             </p>
             <>

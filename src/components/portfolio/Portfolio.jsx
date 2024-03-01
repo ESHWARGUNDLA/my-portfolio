@@ -7,29 +7,29 @@ const items = [
         id:1,
         title:"Tasky Application",
         img:"taskyapp.png",
-        desc:"These is a Tasky Application.These a intermediate level project and builded using HTML,CSS,Bootstrap,Javascript.Here you can add tasks and simultaneously remove the tasks.You can add images,titles,heading and description of the tasks.",
+        desc:"Tasky Application: Organize Your Tasks Like a Pro! 📝✨.As an intermediate-level project, Tasky combines the power of HTML, CSS, Bootstrap, and JavaScript to create a robust task management app.1)Task Creation and Deletion.2)User-Friendly Interface.3)Task Details.4)Task Edit",
         link:"https://eshwargundla-tasky-app.netlify.app/"
     },
     {
         id:2,
         title:"Lagunitas page",
         img:"beer.png",
-        desc:"These is a beer landing page of lagunitas website using HTML,CSS,JavaScript.There are special js libraries used in these those are locomotive and gsap",
+        desc:"These is a beer landing page of Lagunitas Beer Landing Page: 🍺🌟 using HTML,CSS,JavaScript.There are special js libraries used in these those are Locomotive(This library adds smooth scrolling effects as you navigate through the page) and GSAP (GreenSock Animation Platform)",
         link:"https://eshwar-beer-landing-page.netlify.app/"
     },
     {
         id:3,
-        title:"Zomato Clone",
-        img:"zomatoapp.png",
-        desc:"These is a Zomato home page clone website using HTML and CSS. Flexbox and Grid is used to structure the page. Not every content is added, some similar content I have skipped and focused on the stucture of the home page for practise.",
-        link:"https://eshwargundla-zomato-clone.netlify.app/"
+        title:"Landing Page",
+        img:"Landing-Page.png",
+        desc:"As a web developer passionate about creating engaging user experiences, I recently designed a Landing Page using ReactJS and React Router. The landing page serves as an inviting entry point for users.🚀🌟.Feel free to check out the live version of my landing page on See Demo and experience the seamless navigation! 👩‍💻",
+        link:"https://scintillating-druid-9d6cea.netlify.app/"
     },   
     {
         id:4,
         title:"Portfolio",
         img:"./portfolio.png",
-        desc:" These is a modern and customizable personal portfolio web template built using the popular React library, Sass and Framer Motion. It provides an easy way for developers, designers, and creatives to showcase their work and skills in a professiona and visually appealing way."
-        // link:""
+        desc:" These is a modern and customizable personal portfolio web template built using the popular React library, Sass and Framer Motion. It provides an easy way for developers, designers, and creatives to showcase their work and skills in a professiona and visually appealing way.",
+        link:"#"
     },
     {
         id:5,
@@ -69,6 +69,8 @@ const Single = ({item}) =>{
                     <h3>{item.title}</h3>
                     <p>{item.desc}</p>
                     <a href={item.link} target="_blank">
+                        <br />
+                        <br />
                         <button>See Demo</button>
                     </a>
                 </motion.div>

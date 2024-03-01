@@ -101,12 +101,10 @@ p{
     text-align: justify;
 
     @include mobile{
-        padding-left: 10px;
+        padding-left: 4px;
         font-size: 16px;
-
     }
 }
-
 span img{
     height: 200px;
     width: 400px;

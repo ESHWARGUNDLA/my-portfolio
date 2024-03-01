@@ -99,6 +99,8 @@
 
                 @include mobile {
                     font-size: 16px;
+                    // overflow: auto;
+                    text-align: left
                     
                 }
             }
