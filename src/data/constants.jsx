@@ -28,7 +28,7 @@ export const skills= [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
-        name: "Bootstrap",
+        name: "Redux",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },

@@ -28,14 +28,14 @@ const items = [
         id:4,
         title:"Portfolio",
         img:"./portfolio.png",
-        desc:" These is a modern and customizable personal portfolio web template built using the popular React library, Sass and Framer Motion. It provides an easy way for developers, designers, and creatives to showcase their work and skills in a professiona and visually appealing way.",
+        desc:" These is Modern Personal Portfolio Web Template: 🌟🚀 built using the popular React library, Sass and Framer Motion. It provides an easy way for developers, designers, and creatives to showcase their work and skills in a professiona and visually appealing way🎨👩‍💻.",
         link:"#"
     },
     {
         id:5,
         title:"Book Management",
         img:"Book Management.png",
-        desc:"These is Library Book Management project using Nodejs,Expressjs,Javascript.To check severs I have used postman-api.You can access users,books etc"
+        desc:"These is Library Book Management Project 📚🔍 using Nodejs,Expressjs,Javascript.To check severs communications I have used postman-api.You can access users,books etc. The project allows user management. You can create, update, and delete user profiles📖🚀."
         // link:""
     },
     {

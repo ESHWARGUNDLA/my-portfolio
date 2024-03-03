@@ -5,7 +5,7 @@ import "./sidebar.scss"
 import ToggleButton from "./toggleButton/ToggleButton";
 const variants = {
     open:{  
-        clipPath:"circle(1450px at 50px 50px)",
+        clipPath:"circle(1200px at 50px 50px)",
         transtion:{
         type:"spring",
         stiffness:20,
