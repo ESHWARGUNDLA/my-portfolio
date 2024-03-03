@@ -8,7 +8,7 @@ const Parallax = ({type}) => {
     const {scrollYProgress} = useScroll({
         target:ref,
         offset:["start start","end start"]
-    })
+    });
     const yBg=useTransform(scrollYProgress,[0,1],["0%","100%"]);
     const yText=useTransform(scrollYProgress,[0,1],["0%","500%"])
     return(
@@ -24,11 +24,14 @@ const Parallax = ({type}) => {
         {type==="skills" ? "What I Learned?":"What I Did?"}
         </motion.h1> 
         <motion.div className="mountains"></motion.div>  
-        <motion.div 
+        <motion.div  
+        className="planets"
         style={{y:yBg,
             backgroundImage:`url(${type === "skills" ? "/planets.png":"/sun.png"
     })`,
-    }} className="planets"></motion.div>
+    }} 
+   >
+   </motion.div>
         <motion.div style={{x:yBg}} className="stars"></motion.div>
         </div>
     );
